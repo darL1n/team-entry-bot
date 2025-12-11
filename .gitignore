@@ -1,0 +1,71 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+# Python package build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.mo
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Media & Static
+/media/
+media/
+*.sqlite3
+
+# Игнорировать всё в static/
+static/*
+
+# Но явно разрешить эти 4 файла
+!static/auth1.jpg
+!static/auth2.jpg
+!static/auth3.jpg
+!static/auth4.jpg
+
+# Migrations — исключаем всё, кроме __init__.py
+**/migrations/*
+!**/migrations/__init__.py
+
+# Coverage / Test reports
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# MyPy, Pyre, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# PyCharm, VSCode, etc.
+.idea/
+.vscode/
+
+# Celery
+celerybeat.pid
+celerybeat-schedule
+
+# Jupyter / IPython
+.ipynb_checkpoints/
